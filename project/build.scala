@@ -26,7 +26,8 @@ object CoralFSBuild extends Build {
       "org.scalatest"              %  "scalatest_2.10" % "2.2.0"     % "test",
       "com.typesafe.akka"          %% "akka-actor"     % akkaVersion,
       "com.typesafe.akka"          %% "akka-testkit"   % akkaVersion % "test",
-      "io.spray"                   %% "spray-can"      % sprayVersion
+      "io.spray"                   %% "spray-can"      % sprayVersion,
+      "org.scala-lang.modules"     %% "scala-xml"      % "1.0.2"
     )
   )
 }
